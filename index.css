@@ -1,7 +1,7 @@
 body{
         padding: 0px;
         margin: 0px;
-        outline: 0px;
+        outline: 0px;  
 }
 
 .nav-bar{
@@ -10,29 +10,34 @@ body{
         height: 80px;
         grid-template-columns: repeat(3, 1fr);
         padding: 0px 80px;
+        border-bottom: 1px solid transparent;
+        box-shadow: 0px 0px 5px 5px whitesmoke;
 }
 
 .logo a img{
         height: 80px;
         width: 118px;
+        padding-left: 40px;
 }
 .button-search{
         padding: 0 24px;
+        display: flex;
 }
 .button-box{
         border: 2px solid transparent;
-        margin-top: 20px;
         padding: 0 16px;
+        margin-top: 16px;
         border-radius: 50px;
         height: 48px;
         box-shadow: 0px 0px 5px 5px  whitesmoke;
+        align-items: center;
 }
 .button input{
         margin-left: 8px;
         border: none;
-        margin-top: 15px;  
+        margin-top: 20px;  
         color: #222222;
-        width: 260px;
+        width: 250px;
 }
 .search-icon i{
         background-color: #ff385c;
@@ -41,6 +46,8 @@ body{
         transform: translate(10px,6px);
         padding: 10px;
         border-radius:50%;
+        float: right;
+        margin-top: 10px;
 }
 
 .search-icon{      
@@ -56,6 +63,7 @@ body{
         height: 80px;
         align-items: center;
         justify-content: flex-end;
+        padding-right: 40px;
 }
 
 .globe-icon i{
@@ -81,31 +89,36 @@ body{
         border-radius: 20px;
         font-size: 16px;
 }
+.header{
+        padding: 0 80px;
+}
 .header h1{
         font: 26px;
-        padding: 0 80px;
+        padding-left: 40px;
         color: #222222;
         font-family: font-family: 'Roboto', sans-serif;
         display:inline-block;
 }
 
 .description i{
-        padding-left: 80px;
+        padding-left: 40px;
         color:red;
 }
 .description a{
-        color:#717171 ;
-        font-size: 14px;
+        font-size: 14px;;
+        color: rgb(113, 113, 113);
+        font-weight: 600;
+        text-decoration: underline;
 }
 #rating{
         font-size: 14px;
         font-weight: 600;
-        color: #484848;
+        color: #ff385c;
 }
 
 .image-gallery{
         padding: 24px 80px;
-        min-width: 1189px;
+        width:content;
         height: 300px;
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -121,7 +134,9 @@ body{
 .first-image{
         grid-row: 1/span 2;
         grid-column: 1/span 2;  
-        padding-right: 8px;    
+        padding-right: 8px;
+        padding-left: 40px; 
+       
 }
 .second-image{
         padding: 0px 8px 8px 0px;
@@ -129,9 +144,24 @@ body{
 
 .third-image{
         padding-bottom: 8px;
+        padding-right: 40px;
 }
 .fourth-image{
         padding-right: 8px;
+}
+
+.fifth-image{
+        padding-right: 40px;
+}
+
+.first-image img{
+        border-radius: 10px 0px 0px 10px ; 
+}
+.third-image img{
+        border-radius: 0px 10px 0px 0px ; 
+}
+.fifth-image img{
+        border-radius: 0px 0px 10px 0px;
 }
 
 
