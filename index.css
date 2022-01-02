@@ -138,6 +138,7 @@ body{
         padding-left: 40px; 
        
 }
+
 .second-image{
         padding: 0px 8px 8px 0px;
 }
@@ -149,10 +150,10 @@ body{
 .fourth-image{
         padding-right: 8px;
 }
-
+ 
 .fifth-image{
         padding-right: 40px;
-}
+}  
 
 .first-image img{
         border-radius: 10px 0px 0px 10px ; 
